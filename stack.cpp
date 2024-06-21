@@ -78,6 +78,15 @@ public:
 };
 
 int main() {
+
+stacktype <int> s(2);
+s.push(3);
+s.push(2);
+
+
+
+
+
  /* stacktype<int> s(90);
   s.initializeStack();
   s.push(5);

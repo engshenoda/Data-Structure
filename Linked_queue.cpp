@@ -143,9 +143,9 @@ public:
 
     void reverseTraverse() const
     {
+        nodeType *next = nullptr;
         nodeType *prev = nullptr;
         nodeType *current = queueFront;
-        nodeType *next = nullptr;
         while (current != nullptr)
         {
             next = current->link;
